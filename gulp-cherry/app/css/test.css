@@ -1,0 +1,12 @@
+body {
+  background: #000; }
+
+.test {
+  color: red;
+  font-family: Verdana;
+  text-transform: uppercase; }
+
+.test2 {
+  color: #fff;
+  font-family: verdana;
+  font-size: 1rem; }

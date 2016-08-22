@@ -1,0 +1,46 @@
+.user-container {
+    position: relative;
+    background: $lead-body;
+    border: 1px solid $fields-border-color;
+    border-radius: $fields-border-radius;
+    padding: $padding-x*2 $padding-y/4 $padding-x;
+    margin-bottom: $content-top-margin;
+    margin-top: 130px;
+    .user-img {
+        position: absolute;
+        top: -50px;
+        left: 40%;
+        @media screen and (max-width: 640px) {
+          left:28%;
+        }
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: $content-top-margin/2;
+        img {
+            height: 60px;
+            width: auto;
+            margin-top: 20px;
+            // margin-left: auto;
+            // margin-right: auto;
+        }
+    }
+    .user-close,
+    .user-id {
+        display: inline;
+    }
+    .user-number {
+        margin: 10px;
+    }
+    .user-close {
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+        // padding: 20px;
+        background: $lead-body-lighter;
+        margin: 10px;
+    }
+}
